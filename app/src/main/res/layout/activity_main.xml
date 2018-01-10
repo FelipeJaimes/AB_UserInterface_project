@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ab_userinterface_project.MainActivity"
+    android:background="#E0E0E0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@layout/myrect"
+        android:elevation="6dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/phone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:background="@layout/mycirc"
+            android:elevation="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="..."
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@layout/photoshadow"
+            android:elevation="12dp"
+            android:src="@drawable/bussines" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:text="BURGUER SHOP"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:elevation="12dp"
+            android:background="#BF00AA8D" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/photo"
+            android:text="Just a burger shop!"
+            android:gravity="center"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/description"
+            android:text="Phone:"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/description"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="(7) 6898008"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/phone"
+            android:text="Adress:"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/adressnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/phone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Calle 42 # 36 - 42"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/adress"
+            android:text="Schedule:"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/schedulenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:layout_below="@id/adress"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="12:00 PM - 11:00 PM"
+            android:textColor="#00AA8D"
+            android:fontFamily="sans-serif-condensed" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
